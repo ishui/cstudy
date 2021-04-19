@@ -22,7 +22,6 @@ int main(int argc,char *argv[]){
     }
     fclose(fp);
     fclose(fp2);
-    printf("this is a test\n");
     printf("Total lines is %d Count word = %d\n" , __LINE__,i);
     printf("Time is %s\n",__TIME__);
     printf("file name is %s\n",__FILE__);
