@@ -3,11 +3,13 @@
 #include<unistd.h>
 
 int main(int argc,char *argv[]){
-    
+    if(argc > 0){
+        printf("argc = %d\n",argc);
+    }
     int i = 0;
-    for (; i < 10; i++)
+    for (; i < argc; i++)
     {
-        /* code */
+        printf(" %d.this is test %s\n",i,argv[0]);
     }
     
 
